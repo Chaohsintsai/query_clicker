@@ -8,7 +8,8 @@ from time import sleep
 from selenium import webdriver
 from config import logger
 from translations import contains_ad
-
+import sys
+sys.path.insert(0,'/usr/lib/chromium-browser/chromedriver')
 
 class SearchController:
 
