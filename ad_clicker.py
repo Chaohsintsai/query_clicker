@@ -46,6 +46,7 @@ def main():
             logger.info(f"Found {len(ads)} ads")
             search_controller.click_ads(ads, args.white_list)
             search_controller.end_search()
+            logger.info("Rest for " + rest + " seconds.")
             time.sleep(rest)
    
 
